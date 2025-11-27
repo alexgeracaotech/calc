@@ -1,6 +1,10 @@
 
 @import 'tailwindcss';
 
+* {
+  font-family: 'Oxanium', sans-serif;
+}
+
 html, body {
   height: 100%;
 }
@@ -9,4 +13,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.button {
+  @apply w-full h-12 rounded-3xl text-amber-50 text-lg leading-[100%] cursor-pointer
 }
