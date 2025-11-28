@@ -1,5 +1,5 @@
 
-const Digit = () => {
+const Digit = ({ digit }) => {
 
   const style = `
 
@@ -7,7 +7,7 @@ const Digit = () => {
 
   return (
     <>
-      <span></span>
+      <span className="text-amber-50 text-4xl">{digit}</span>
     </>
   );
 }
